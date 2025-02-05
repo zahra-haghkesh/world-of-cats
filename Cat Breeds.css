@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+.par {
+    border: 2px solid rgb(112, 9, 126);
+    background-color: rgb(237, 225, 234);
+    border-radius: 15px;
+    width: 1525px;;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+a {
+    text-decoration: none;
+}
+ .logo{
+    width: 100px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 8px; 
+}
+.li {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    list-style: none;
+    padding: 20px;
+}
+@media (max-width:576px) {
+  .par {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .li {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: -40px;
+  }
+  li {
+    font-size: 10px;
+    padding: 6px;
+  }
+ .logo{
+    margin-left: 20px;
+    margin-top: 4px;
+  }
+}
+.cap {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(8, 9, 9);
+  padding: 20px;
+}
+.u {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  color: white;
+  margin-top: 15rem;
+  margin-left: 30px;
+}
+.y {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.q {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.o {
+  font-size: 25px;
+  color: white;
+}
+.of {
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
+}
+.bobo {
+  width: 50rem;
+  height: 35rem;
+  margin-top: 50px;
+}
+.cap1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(172, 169, 169);
+  padding: 10px;
+  margin-top: 20px;
+}
+.mon {
+  width: 600px;
+}
+.uo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-top: 2rem;
+  margin-left: 30px;
+}
+.yo {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.io {
+  width: 40rem;
+  height: 25rem;
+  margin-top: 10px;
+}
+.we {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 20px;
+}
+.re {
+  width: 600px;
+}
+.ge {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-top: 2rem;
+  margin-left: 30px;
+}
+.pe {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.ve {
+  width: 40rem;
+  height: 25rem;
+  margin-top: 10px;
+  border-bottom-right-radius: 60px;
+}
+.ss {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(189, 231, 168);
+  padding: 20px;
+  margin-top: 20px;
+}
+.qq {
+  width: 600px;
+}
+.ee {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-top: 2rem;
+  margin-left: 30px;
+}
+.nn {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.zz {
+  width: 40rem;
+  height: 25rem;
+  margin-top: 100px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.mi {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 20px;
+}
+.ni {
+  width: 600px;
+}
+.xi {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-top: 2rem;
+  margin-left: 30px;
+}
+.qi {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.ei {
+  width: 43rem;
+  height: 28rem;
+  margin-top: 30px;
+}
+.wz1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(168, 231, 231);
+  padding: 20px;
+  margin-top: 20px;
+}
+.wz2 {
+  width: 600px;
+}
+.wz3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-top: 2rem;
+  margin-left: 15px; 
+}
+.wz4 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.wz5 {
+  width: 43rem;
+  height: 28rem;
+  margin-top: 10px;
+}
+.qa {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 20px;
+}
+.wa {
+  width: 600px;
+}
+.sa {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-top: 2rem;
+  margin-left: 15px; 
+}
+.za {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.xa {
+  width: 43rem;
+  height: 28rem;
+  margin-top: 10px;
+}
+.foo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.polo {
+  margin-left: 600px;
+}
+.boo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.p {
+  border: 1px solid;
+  height: 50px;
+}
+.go {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -15px;
+}
