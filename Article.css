@@ -63,6 +63,10 @@ li {
     margin-top: 4px;
   }
 }
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
 .on {
   margin-top: 60px;
   margin-left: 16.5rem;
@@ -90,7 +94,7 @@ li {
   padding: 30px;
 }
 .im {
-  margin-top: 30ox;
+  margin-top: 30px;
   border: 3px double rgb(136, 221, 96);
   border-bottom-right-radius: 15px;
   border-top-left-radius: 20px;
@@ -122,6 +126,57 @@ li {
   margin-top: 20rem;
   margin-left: 50px;
 }
+@media (max-width: 576px) {
+  .on {
+    margin-left: 15px;
+  }
+  .he {
+    font-size: 25px;
+    margin-left: 17px;
+  }
+  .cat {
+    margin-top: 30px;
+    width: 550px;
+  }
+  .dew {
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 3px;
+  }
+  .cim {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px; 
+  }
+  .im {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .vivi {
+    width: 200px;
+    margin-left: 80px;
+  }
+  .lee {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .min {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .xx {
+    width: 220px;
+    margin-left: 20px;
+  }
+  .mm {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 1.5rem;
+  }
+}
 .foo {
   display: flex;
   flex-direction: column;
@@ -145,4 +200,22 @@ li {
   width: 60px;
   height: 60px;
   margin-top: -15px;
+}
+
+@media (max-width: 576px) {
+  .foo {
+    margin-top: 10px;
+}
+.polo {
+    margin-left: 150px;
+}
+.boo {
+    margin-top: 40px;
+    justify-content: space-around;
+    }
+.go {
+   width: 30px;
+   height: 30px;
+   margin-top: 0;
+  } 
 }
